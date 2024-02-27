@@ -13,7 +13,7 @@ WORKDIR /app
 COPY . .
 
 # Clean install all node modules
-RUN npm ci
+RUN npm ci --force
 
 # Build SvelteKit app
 RUN npm run build
