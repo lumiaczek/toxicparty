@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .hero {
-    background-image: url('bg.svg');
+    background-image: url('/bg.svg');
     background-position: center;
     background-size: cover;
 }
